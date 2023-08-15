@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #6F6AF7;
+    height: 15vh;
+    display: flex;
+    
+    
+}
+
+.nav-left{
+    padding:25px;
+    
+}
+
+.nav-left h2{
+color: #FFF;
+font-family: Delius Unicase;
+font-size:50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+
+.nav-middle ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    list-style-type: none;
+    color: white;
+    font-size: 26px;
+    height:8px;
+    
+}
+
+.nav-middle ul li{
+    padding: 20px;
+    
+    
+}
+
+.search-btn{
+    background: white;
+    margin-top: 30px;
+    width: 55vh;
+    height: 5vh;
+    border-radius:50px;
+    display: flex;
+}
+
+.search-btn h3{
+    padding: 8px;
+    color: #9F9F9F;
+    font-family: DM Sans; 
+    margin-left: 5px;
+}
+
+.search-btn svg{
+    height: 20px;
+    padding-left:30px;
+    margin-left: 195px;
+    margin-top: 10px;   
+    
+}
+
+.hamburger{
+    margin: 30px;
+    margin-left:230px;
+}
+
+.herosection{
+    display: flex;
+}
+
+.hero-left img{
+    margin:100px;
+    width: 350px;
+    height: 250px; 
+}
+
+.hero-right{
+    width:100vh;
+    height:36vh;
+    background-color: #E5D8FF;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.hero-right h3{
+    color: #6F7373;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 178.7%;
+    margin: 20px;
+    
+}
+
+.socials{
+
+    margin-left:150px ;
+    margin-top: 80px;
+}
+
+.socials svg{
+    display:block; /* for keeping icons vertically */
+    
+    
+}
+
+.cards{
+    display: flex;
+    position: relative;
+}
+
+.card{
+    width: 350px;
+    height: 120px;
+    margin: 35px;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.35) 0px 30px 60px -12px, rgba(0, 0, 0, 0.4) 0px 18px 36px -18px;
+
+}
+
+.card h2{
+    color: white;
+    margin: 20px;
+    font-family: DM Sans; 
+}
+.card h3{
+    color: white;
+    margin: 20px;
+    font-family: DM Sans; 
+}
+
+.cards svg{
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+
+.infocard{
+    width: 200vh;  
+    height: 70vh;
+    background-color: #483EFF;
+    margin:100px 50px;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.info-left {                   /* doubt what if we dont take these ? */
+   width: 400px;
+   height: 495px;
+   border: 1px solid transparent;
+    
+}
+
+.info-left .div1>h1{
+    width: 300px;
+    height: 80px;
+    border: 1px solid black;
+    margin:50px;
+    background-color: #BCE0F6;
+    border-radius: 5px;
+    padding-top:15px; /* for text written in it */
+    padding-left: 80px;/* for text */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.info-left .div2>h1{
+    width: 300px;
+    height: 80px;
+    border: 2px solid white;
+    margin:50px;
+    background-color:transparent;
+    border-radius: 8px;
+    padding-top:15px; /* for text written in it */
+    padding-left: 50px;/* for text */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white; 
+}
+
+.info-right{
+    
+    width:140vh;  /* doubt */
+    padding: 35px;
+}
+
+.details{
+    width: 132vh;
+    background-color: white;
+    height:430px;
+    border-radius: 10px;
+    padding: 50px;
+    color: #04285A;
+}
+.name{
+    margin:50px;
+    color: #143565;
+    line-height:2;
+    font-size: 20px;
+}
+
+
+/* btns ---*/
+
+button {
+    font-family: PlusJakartaSans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Cantarell,Helvetica Neue,Ubuntu,sans-serif;
+    font-size: 16px;
+    align-items: center;
+    height: 48px;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 0 20px;
+    color: #ddd;
+    border: none;
+    box-shadow: 0 .5rem 1rem rgba(143, 142, 142, 0.15)!important;
+    background: #000000;
+    margin-left:96vh;
+    margin-top: 2vh;
+   }
+   
+   .followers {
+    font-size: 0.8rem;
+    color: #7f7f7f;
+   }
+   
+   button:hover {
+    background: #2b2a2a;
+   }
